@@ -1,0 +1,188 @@
+*{
+  padding: 0;
+  margin: 0;
+box-sizing: border-box;
+}
+
+body {
+  font-family: cursive;
+}
+
+nav {
+  max-height: 15vh;
+  background-color: #000000;
+  padding-inline: 10px;
+  color: white;
+}
+
+/* main container */
+.nav-main-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 30px;
+}
+
+.left-container {
+  color: aliceblue;
+  display: flex;
+}
+
+.left-container h1 {
+  margin-left: 10px;
+}
+
+/* nav-right btn */
+.right-container {
+  display: flex;
+  justify-content: space-between;
+  min-width: 20%;
+}
+
+.right-container button {
+  margin-right: 20px;
+  border-radius: 10px;
+  font-size: 24px;
+}
+
+.submit {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  padding: 10px 20px;
+}
+
+.Sign-in {
+  background-color: #4C5FD5;
+  border: none;
+  outline: none;
+  color: white;
+  font-weight: 600;
+  padding: 10px 30px;
+}
+
+/* designing main section */
+
+main {
+  margin-bottom: 2rem;
+}
+
+.frist-secetion {
+  height: 45vh;
+  background: #DADBF1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* creating search input styling */
+
+.frist-text h1 {
+  font-size: 80px;
+  font-weight: 500;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid black; */
+  background-color: #DADBF1;
+  min-width: 100%;
+}
+
+.icons input {
+  border: none;
+  outline: none;
+  width: 40%;
+  padding: 15px 25px;
+  min-width: 100%;
+  border: 1px solid black;
+}
+
+.icons input:focus {
+  border: 1px solid blue;
+}
+
+.icons i {
+  background-color: #DADBF1;
+  position: relative;
+  right: 15px;
+  color: blue;
+}
+
+
+/* designing second container */
+.second-section {
+  margin-top: 8rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-items-section {
+  padding-inline: 7rem;
+  min-height: 120px;
+  width: 50%;
+}
+
+.card-items-section img {
+  max-height: 120px;
+  margin: 70px 25px 7px 0px;
+}
+
+.card-items-section {
+  display: flex;
+  padding-bottom: 50px;
+}
+
+.title-heading {
+  margin: 2rem 3rem 1rem 0.5rem;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.paragraph {
+  font-size: 32px;
+  line-height: 40px;
+  margin-bottom: 20px;
+  font-weight: 200;
+}
+
+.section-display a {
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.second-section a:hover {
+  text-decoration: auto;
+}
+
+@media(max-width: 900px) {
+  .card-items-section {
+    width: 100%;
+  }
+}
+
+@media(max-width:700px) {
+  .frist-secetion h1 {
+    font-size: 40px;
+  }
+}
+
+@media(max-width:600px) {
+  .right-container {
+    display: none;
+  }
+  .card-items-section{
+    display: block;
+  }
+
+  nav {
+    padding-inline: 0;
+    width: 100vw;
+  }
+}
+
+
+/* designing footer section */
